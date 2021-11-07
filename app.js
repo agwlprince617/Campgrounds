@@ -108,7 +108,7 @@ app.use(
                 "'self'",
                 "blob:",
                 "data:",
-                "https://res.cloudinary.com/douqbebwk/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
+                "https://res.cloudinary.com/dnndujabj/", //SHOULD MATCH YOUR CLOUDINARY ACCOUNT! 
                 "https://images.unsplash.com",
             ],
             fontSrc: ["'self'", ...fontSrcUrls],
@@ -139,7 +139,7 @@ app.use('/campgrounds/:id/reviews',reviewRoutes)
 app.use('/',userRoutes)
 
 app.get('/', (req,res) =>{
-    res.render('Home')
+    res.render('home')
 })
 
 
